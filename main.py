@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return 'Web App with Python Flask!'
 
-@app.route('/templates')
+@app.route('/1')
 def templates():
      return render_template('index.html') 
 
